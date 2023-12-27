@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
         - name: app
-          image: "xstck/app-image:7342425400"
+          image: "xstck/app-image:7342484260"
           imagePullPolicy: IfNotPresent
           env:
             - name: VERSION
-              value: "7342425400"
+              value: "7342484260"
           ports:
             - name: http
               containerPort: 80
