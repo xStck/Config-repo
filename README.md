@@ -122,6 +122,16 @@ spec:
       backoffLimit: 1
 ```
 
+#### Opracowany obraz o nazwie zad2gitops (https://hub.docker.com/repository/docker/xstck/zad2gitops/general)
+
+```dockerfile
+FROM alpine
+RUN apk add --no-cache git && \
+  apk add --no-cache curl && \
+  apk add --no-cache kubectl
+CMD tail -f /dev/null
+```
+
 #### Poprawność działania: deployment, service, ingress, cronjob
 
 ![](/screens/pdsic.png)
