@@ -121,3 +121,7 @@ spec:
           serviceAccountName: gitops
       backoffLimit: 1
 ```
+
+#### Poprawność działania: deployment, service, ingress, cronjob
+
+![](/screens/pdsic.png)
